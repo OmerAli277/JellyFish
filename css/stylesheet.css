@@ -1,0 +1,82 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    color: black;
+    cursor: pointer;
+}
+a:hover {
+    color: #40dfd0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.color-turquoise {
+    color: #40dfd0;
+}
+.color-gray {
+    color: #848488;
+}
+
+.btn-turquoise {
+    color: black;
+    background-color: #40dfd0;
+    border-color: #343a40;
+}
+
+.bg-dark-mode {
+    background-color: #2d2d36;
+}
+.bg-gray-mode {
+    background-color: #f1f1f1;
+}
+.navbar {
+    min-height: 120px;
+    padding: 0%;
+  }
+
+.md-1{
+    margin-top: 10px;
+}
+.md-2{
+    margin-top: 20px;
+}
+.md-3{
+    margin-top: 30px;
+}
+.md-4{
+    margin-top: 40px;
+}
+.md-5{
+    margin-top: 50px;
+}
+.md-6{
+    margin-top: 60px;
+}
+.md-7{
+    margin-top: 70px;
+}
+.md-8{
+    margin-top: 80px;
+}
+.md-9{
+    margin-top: 90px;
+}
+.md-10{
+    margin-top: 100px;
+}
+  
+.btn {
+    border-radius: 0;
+}
+
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
