@@ -224,10 +224,17 @@ span {
 
 .card {
   margin-top: 60px;
-  padding-top: 30px;
+  /*padding-top: 30px;*/
   -webkit-box-shadow: -2px -4px 16px -3px rgba(126,124,128,1);
   -moz-box-shadow: -2px -4px 16px -3px rgba(126,124,128,1);
   box-shadow: -2px -4px 16px -3px rgba(126,124,128,1);
 }
+
+/* Solid border */
+hr.solid {
+  border-top: 2px solid #b2b;
+}
+
+
 
 
