@@ -71,6 +71,10 @@ a {
 .md-10{
     margin-top: 100px;
 }
+
+.form-pad{
+    padding: 15%;
+}
   
 .btn-temp {
     background-color: #652079; 
@@ -94,11 +98,63 @@ a {
     box-shadow: 0 0 0 0.2rem rgba(172,138,199,1);
 }
 
+.nav-tabs {
+    border: 0;
+}
+
+.nav-tabs .nav-link {
+    border: 0;
+    border-bottom: 3px solid #bdbfc1;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #652079;
+    background-color: #fff;
+    border-color: none;
+    border-bottom: 3px solid #652079;
+    font-weight: 700;
+}
+
+
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 @media (max-width: 600px) {
-  .carousel-caption {
-    display: none; 
-  }
+    .form-pad{
+        padding: 0;
+        border-radius: 5%;
+    }
+    .btn-temp {
+        width: 100%;
+    }
+    .md-1{
+        margin-top: 1px;
+    }
+    .md-2{
+        margin-top: 2px;
+    }
+    .md-3{
+        margin-top: 3px;
+    }
+    .md-4{
+        margin-top: 4px;
+    }
+    .md-5{
+        margin-top: 5px;
+    }
+    .md-6{
+        margin-top: 6px;
+    }
+    .md-7{
+        margin-top: 7px;
+    }
+    .md-8{
+        margin-top: 8px;
+    }
+    .md-9{
+        margin-top: 9px;
+    }
+    .md-10{
+        margin-top: 10px;
+    }
 }
 
 
@@ -142,6 +198,9 @@ a {
 .card {
   margin-top: 60px;
   padding-top: 30px;
+  -webkit-box-shadow: -2px -4px 16px -3px rgba(126,124,128,1);
+  -moz-box-shadow: -2px -4px 16px -3px rgba(126,124,128,1);
+  box-shadow: -2px -4px 16px -3px rgba(126,124,128,1);
 }
 
 
