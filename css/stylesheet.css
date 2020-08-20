@@ -88,8 +88,8 @@ a {
     border: 1px solid #bdbfc1;
 }
 
-.form-pad{
-    padding: 6%;
+.form-input-pad {
+    padding: 5%;
 }
 
 .form-control:focus {
