@@ -100,3 +100,20 @@ a {
     display: none; 
   }
 }
+
+
+.how-right img {
+    float:left;
+    margin-right:20px;
+    vertical-align:middle;
+}
+span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.text-color-JellyFish {
+    color:purple
+}
+
+
