@@ -88,9 +88,8 @@ a {
     border: 1px solid #bdbfc1;
 }
 
-.form-pad {
+.form-pad{
     padding: 6%;
-
 }
 
 .form-control:focus {
@@ -230,4 +229,6 @@ span {
   box-shadow: -2px -4px 16px -3px rgba(126,124,128,1);
 }
 
-
+hr.solid {
+   border-top: 2px solid #b2b;
+}
