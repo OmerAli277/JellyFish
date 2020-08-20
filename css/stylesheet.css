@@ -115,16 +115,6 @@ a {
     font-weight: 700;
 }
 
-
-/* Hide the carousel text when the screen is less than 600 pixels wide */
-@media (max-width: 600px) {
-<<<<<<< HEAD
-  .carousel-caption {
-    display: none; 
-  }
-}
-
-
 .how-right img {
     float:left;
     margin-right:20px;
@@ -136,8 +126,12 @@ span {
 }
 
 .text-color-JellyFish {
-    color:purple
-=======
+    color:#652079
+}
+
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
     .form-pad{
         padding: 0;
         border-radius: 5%;
@@ -221,7 +215,6 @@ span {
   -webkit-box-shadow: -2px -4px 16px -3px rgba(126,124,128,1);
   -moz-box-shadow: -2px -4px 16px -3px rgba(126,124,128,1);
   box-shadow: -2px -4px 16px -3px rgba(126,124,128,1);
->>>>>>> e9b6ee8635952365bd0ea5079c3e2dd1cf4f73df
 }
 
 
