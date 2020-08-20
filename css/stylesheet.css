@@ -86,7 +86,11 @@ a {
     background-color: #f4f6f8;
     color: #bdbfc1;
     border: 1px solid #bdbfc1;
+}
+
+.form-pad {
     padding: 6%;
+
 }
 
 .form-control:focus {
@@ -127,6 +131,15 @@ span {
 
 .text-color-JellyFish {
     color:#652079
+}
+
+.parent{
+    position: relative;
+}
+.over-img{
+    position: absolute;
+    top: 80%;
+    left: 20%;
 }
 
 

@@ -70,16 +70,44 @@
                         </div>
                     </div>
                 </div>
-                <div class="offset-lg-3 col-lg-2 offset-lg-3">
-                   <div class="md-5 text-center" style="background-color: #fff; 
+                <div class="offset-lg-3 col-lg-3">
+                   <div class="md-6 text-color-JellyFish font-bold " style="background-color: #fff; 
                    border-radius: 5px;
-                   padding: 1%;">
-                        <h3>STREAM</h3>
+                   padding: 0.5%;">
+                        <h4 class="text-center">STREAM</h4>
+                   </div>
+                   <div class="md-3 parent">
+                       <img src="assests/WebSVGAssets/mediaPlayerStyle1.svg" class="img-fluid" >
+                        <img src="assests/WebSVGAssets/Record.svg"  class="over-img img-fluid" data-toggle="modal" data-target="#exampleModalCenter" >
                    </div>
                 </div>
             </div>
         </div>
-
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group md-3">
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Title">
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="#Tag">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="@String">
+                        </div>
+                        <div class="md-4">
+                            <p class="text-center text-color-JellyFish font-bold" style="border-bottom: 3px solid #652079; display:block; padding: 1%;">Type</p>
+                        </div>
+                        <button style="margin: 0 auto" type="submit" class="btn btn-temp md-1">GO</button>
+                      </form>
+                      
+                </div>
+            </div>
+            </div>
+        </div>
     </div>
 
         <script src="javascript/jquery-3.3.1.min.js"></script>
