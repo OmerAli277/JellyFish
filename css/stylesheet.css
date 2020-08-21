@@ -89,8 +89,7 @@ a {
 }
 
 .form-input-pad {
-    padding: 6%;
-
+    padding: 5%;
 }
 
 .form-control:focus {
@@ -140,6 +139,19 @@ span {
     position: absolute;
     top: 80%;
     left: 20%;
+    margin-top: 13%;
+    margin-left: 30%;
+    transform: translate(-50%,-50%);
+
+}
+
+.over-img-debate{
+    position: absolute;
+    /*top: 80%;
+    left: 20%;*/
+    margin-top: -10%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .modal-btn {
@@ -250,10 +262,16 @@ span {
 
 .card {
   margin-top: 60px;
-  padding-top: 30px;
   -webkit-box-shadow: -2px -4px 16px -3px rgba(126,124,128,1);
   -moz-box-shadow: -2px -4px 16px -3px rgba(126,124,128,1);
   box-shadow: -2px -4px 16px -3px rgba(126,124,128,1);
 }
 
+.card-list {
+  margin-top: -45px;
+  padding: 20px;
+}
 
+hr.solid {
+   border-top: 2px solid #b2b;
+}
