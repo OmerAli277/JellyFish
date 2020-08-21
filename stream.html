@@ -101,9 +101,35 @@
                         <div class="md-4">
                             <p class="text-center text-color-JellyFish font-bold" style="border-bottom: 3px solid #652079; display:block; padding: 1%;">Type</p>
                         </div>
-                        <button style="margin: 0 auto" type="submit" class="btn btn-temp md-1">GO</button>
+                        <div class="text-center">
+                            <button class="btn btn-temp modal-btn modal-btn-active">H2H</button>
+                            <button class="btn btn-temp modal-btn">LIVE</button>
+                            <button class="btn btn-temp modal-btn">BOARD</button>
+                        </div>
+                        <div class="text-center md-1">
+                            <button class="btn btn-temp modal-btn modal-btn-active">Public</button>
+                            <button class="btn btn-temp modal-btn">Private</button>
+                        </div>
                       </form>
-                      
+                      <div class="text-center md-5">
+                        <button class="btn btn-temp modal-btn-main font-bold" onclick="closeCurrentModal()">GO</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Second Modal -->
+        <div class="modal fade" id="exampleModalCenterSecond" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="text-center font-bold text-color-JellyFish">
+                        H2H Request <br>
+                        Sent Successfully 
+                    </div>
+                    <div class="text-center md-2">
+                        <button type="button" class="btn btn-temp" data-dismiss="modal">Back to Home</button>
+                    </div>
                 </div>
             </div>
             </div>
@@ -114,5 +140,18 @@
         <script src="javascript/popper.min.js"></script>
         <script src="javascript/bootstrap.min.js"></script>
         <script src="javascript/multislider.js"></script>
+        <script>
+            $( document ).ready(() => {
+                $('#exampleModalCenter').on('hidden.bs.modal', function () {
+                    // Load up a new modal...
+                    $('#exampleModalCenterSecond').modal('show')
+                })
+            });
+
+            function closeCurrentModal(){
+                $('#exampleModalCenter').modal('hide')
+            }
+            
+        </script>
     </body>
 </html>
