@@ -390,3 +390,9 @@ hr.solid {
     display:block;
     padding: 1%;
 }
+
+
+.circular-image-border{
+    border-radius:100%;
+    border:3px solid lime;
+}
