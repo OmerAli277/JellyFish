@@ -11,6 +11,10 @@ body {
     background-image: url("../assests/WebSVGAssets/JellyBackground.svg");
 }
 
+.body-debate-phone {
+    background-image: url("../assests/WebSVGAssets/JellyBackground.svg");
+}
+
 body,
 html {
     height: 100%;
@@ -173,10 +177,8 @@ span {
 
 .over-img-debate {
     position: absolute;
-    /*top: 80%;
-left: 20%;*/
-    margin-top: -10%;
-    margin-left: 50%;
+    top: 80%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -368,34 +370,34 @@ hr.solid {
         width: 100%;
     }
     .md-1 {
-        margin-top: 3px !important;
+        margin-top: 3px;
     }
     .md-2 {
-        margin-top: 6px !important;
+        margin-top: 6px;
     }
     .md-3 {
-        margin-top: 9px !important;
+        margin-top: 9px;
     }
     .md-4 {
-        margin-top: 12px !important;
+        margin-top: 12px;
     }
     .md-5 {
-        margin-top: 15px !important;
+        margin-top: 15px;
     }
     .md-6 {
-        margin-top: 18px !important;
+        margin-top: 18px;
     }
     .md-7 {
-        margin-top: 21px !important;
+        margin-top: 21px;
     }
     .md-8 {
-        margin-top: 24px !important;
+        margin-top: 24px;
     }
     .md-9 {
-        margin-top: 27px !important;
+        margin-top: 27px;
     }
     .md-10 {
-        margin-top: 30px !important;
+        margin-top: 30px;
     }
     .modal-btn {
         border-radius: 15px;
@@ -445,5 +447,20 @@ hr.solid {
     .body-stream {
         background-image: url("../assests/MobileSVGAssets/marcosPauloPrado.svg");
         background-position: center;
+    }
+    .mob {
+        margin-top: 100px;
+    }
+    .body-debate-phone {
+        background-image: url("../assests/MobileSVGAssets/library-of-congress-jPN_oglAjOU-unsplash.svg");
+        background-position: center;
+    }
+    .over-img-debate {
+        position: absolute;
+        margin-top: 180%;
+        margin-left: 50%;
+        top: 0;
+        left: 0;
+        transform: translate(-50%, -50%);
     }
 }
