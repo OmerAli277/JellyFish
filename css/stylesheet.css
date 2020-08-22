@@ -338,6 +338,18 @@ span {
     height: 80px;
 }
 
+.hashtag-card-image {
+    height: 65px;
+    padding :1px;
+    margin-top:5px;
+    border-radius: 10px;
+}
+
+.hashtag-card{
+    margin-top: 10px;
+
+}
+
 hr.solid {
    border-top: 2px solid #b2b;
 }
