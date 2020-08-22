@@ -366,11 +366,24 @@ span {
 
 .hashtag-card{
     margin-top: 10px;
-
+    background-color: #652079;
 }
+
+.hashtag-card-label {
+    color: white;
+}
+
 
 hr.solid {
    border-top: 2px solid #b2b;
+}
+
+.hashtag-card-text-style {
+    background-color:#f5f7fe;
+    color:#615789;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    font-size: 12px;
 }
 
 .modal {

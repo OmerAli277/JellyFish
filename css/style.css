@@ -17,6 +17,10 @@
  background:white;
 }
 
+.card-body{
+  padding: 0.9rem;
+}
+
 
 .card-text-style {
     background-color:#f5f7fe;
