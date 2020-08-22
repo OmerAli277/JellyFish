@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
-    <head>
+
+<head>
     <title>Jelly Fish</title>
     <meta charset="UTF-8">
     <meta name="keywords" content="HTML, CSS, JavaScript">
@@ -15,249 +16,236 @@
     <link rel="stylesheet" href="css/stylesheet.css">
 
 </head>
-    <body style="background-image: url('assests/WebSVGAssets/JellyBackground.svg');">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4" >
-                    <div class="col">
-                        <div class="card text-center md-6" style="border-radius: 10px; padding-top: 30px;">
 
-                            <img class="card-img-top img-circle rounded-circle" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">@TeeJ</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Jelly Fish Score</h6>
-                                <svg height="120%" width="120%">
+<body style="background-image: url('assests/WebSVGAssets/JellyBackground.svg');">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="col">
+                    <div class="card text-center md-6" style="border-radius: 10px; padding-top: 30px;">
+
+                        <a href="audienceTabs.html"><img class="card-img-top img-circle rounded-circle" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">@TeeJ</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Jelly Fish Score</h6>
+                            <svg height="120%" width="120%">
                                     <circle cx="179" cy="68" r="60" stroke="#311d6f" stroke-width="13" fill="none" />
                                     <text x="40%" y="45%" text-anchor="middle" stroke="#311d6f" stroke-width="2px" dy=".3em">363</text>
                                 </svg>
 
-                                 <div class="row justify-content-center" >
-                                     <text class="card-link card-text-style">3048 <br> Followers</text>
-                                     <text class="card-link card-text-style">3048 <br> Following</text>
-                                     <text class="card-link card-text-style">123 <br> Stings</text>
-                                 </div>
+                            <div class="row justify-content-center">
+                                <text class="card-link card-text-style">3048 <br> Followers</text>
+                                <text class="card-link card-text-style">3048 <br> Following</text>
+                                <text class="card-link card-text-style">123 <br> Stings</text>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="card text-center md-1 hiden-text" style="border-radius: 10px;">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <a href="#" class="btn btn-temp">
-                                            <img src="assests/WebSVGAssets/SearchTagIcon.svg">
-                                            HashTags
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <a href="#" class="btn btn-temp">
-                                            <img src="assests/WebSVGAssets/SearchTagIcon.svg">
-                                            Audience
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <a href="#" class="btn btn-temp">
-                                            <img src="assests/WebSVGAssets/SearchTagIcon.svg">
-                                            Stream
-                                        </a>
-                                    </div>
+                    <div class="card text-center md-1 hiden-text" style="border-radius: 10px;">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <a href="hashTag.html" class="btn btn-temp">
+                                        <img src="assests/WebSVGAssets/SearchTagIcon.svg"> HashTags
+                                    </a>
+                                </div>
+                                <div class="col-sm-4">
+                                    <a href="JellyFishHome.html" class="btn btn-temp">
+                                        <img src="assests/WebSVGAssets/SearchTagIcon.svg"> Audience
+                                    </a>
+                                </div>
+                                <div class="col-sm-4">
+                                    <a href="stream.html" class="btn btn-temp">
+                                        <img src="assests/WebSVGAssets/SearchTagIcon.svg"> Stream
+                                    </a>
                                 </div>
                             </div>
                         </div>
-
                     </div>
+
                 </div>
-                <div class="col-lg-8">
+            </div>
+            <div class="col-lg-8">
 
-                    <div class="col">
+                <div class="col">
 
-                        <div class="card md-6" style="border-radius: 10px;">
-                            <div class="card-body ">
-                                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                    <li class="nav-item">
-                                      <a class="nav-link active" id="active-tab" data-toggle="tab" href="#active" role="tab" aria-controls="home" aria-selected="true">ACTIVE</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="profile" aria-selected="false">ALL</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="stings-tab" data-toggle="tab" href="#stings" role="tab" aria-controls="profile" aria-selected="false">STINGS</a>
-                                    </li>
-                                </ul>
-                            </div>
+                    <div class="card md-6" style="border-radius: 10px;">
+                        <div class="card-body ">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="active-tab" data-toggle="tab" href="#active" role="tab" aria-controls="home" aria-selected="true">ACTIVE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="profile" aria-selected="false">ALL</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="stings-tab" data-toggle="tab" href="#stings" role="tab" aria-controls="profile" aria-selected="false">STINGS</a>
+                                </li>
+                            </ul>
                         </div>
-
-                        <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="active" role="tabpanel" aria-labelledby="home-tab">
-                                <div class="card text-center md-1" style="width: 100%; border-radius: 10px;">
-
-                                    <div class="card-body ">
-                                        <h5 class="card-title text-color-JellyFish">Ecommerce VS Retail</h5>
-                                        <h6 class="card-subtitle mb-2 text-color-JellyFish">17 hours left</h6>
-        
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <div class="float-left">
-                                                    <img class="img-circle rounded-circle" style="height: 80px;"
-                                                         src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
-                                                    <text class="text-color-JellyFish">@TeeJ</text>
-                                                </div>
-                                                <div  class="float-right">
-                                                    <text class="text-color-JellyFish" >@MarcusF</text>
-                                                    <img class="img-circle rounded-circle" style="height: 80px;"
-                                                         src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="align-bottom font-bold text-color-JellyFish">
-                                            <p>#WilSonMKTG321</p>
-                                        </div>
-                                        <hr class="solid">
-                                    </div>
-        
-                                    <div class="card-body ">
-                                        <h5 class="card-title text-color-JellyFish">Ecommerce VS Retail</h5>
-                                        <h6 class="card-subtitle mb-2 text-color-JellyFish">17 hours left</h6>
-        
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <div class="float-left">
-                                                    <img class="img-circle rounded-circle" style="height: 80px;"
-                                                         src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
-                                                    <text class="text-color-JellyFish">@TeeJ</text>
-                                                </div>
-                                                <div  class="float-right">
-                                                    <text class="text-color-JellyFish" >@MarcusF</text>
-                                                    <img class="img-circle rounded-circle" style="height: 80px;"
-                                                         src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="align-bottom font-bold text-color-JellyFish">
-                                            <p>#WilSonMKTG321</p>
-                                        </div>
-                                        <hr class="solid">
-                                    </div>
-        
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="all" role="tabpanel" aria-labelledby="home-tab">
-                                <div class="card text-center md-1" style="width: 100%; border-radius: 10px;">
-
-                                    <div class="card-body ">
-                                        <h5 class="card-title text-color-JellyFish">Ecommerce VS Retail</h5>
-                                        <h6 class="card-subtitle mb-2 text-color-JellyFish">17 hours left</h6>
-        
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <div class="float-left">
-                                                    <img class="img-circle rounded-circle" style="height: 80px;"
-                                                         src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
-                                                    <text class="text-color-JellyFish">@TeeJ</text>
-                                                </div>
-                                                <div  class="float-right">
-                                                    <text class="text-color-JellyFish" >@MarcusF</text>
-                                                    <img class="img-circle rounded-circle" style="height: 80px;"
-                                                         src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="align-bottom font-bold text-color-JellyFish">
-                                            <p>#WilSonMKTG321</p>
-                                        </div>
-                                        <hr class="solid">
-                                    </div>
-        
-                                    <div class="card-body ">
-                                        <h5 class="card-title text-color-JellyFish">Ecommerce VS Retail</h5>
-                                        <h6 class="card-subtitle mb-2 text-color-JellyFish">17 hours left</h6>
-        
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <div class="float-left">
-                                                    <img class="img-circle rounded-circle" style="height: 80px;"
-                                                         src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
-                                                    <text class="text-color-JellyFish">@TeeJ</text>
-                                                </div>
-                                                <div  class="float-right">
-                                                    <text class="text-color-JellyFish" >@MarcusF</text>
-                                                    <img class="img-circle rounded-circle" style="height: 80px;"
-                                                         src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="align-bottom font-bold text-color-JellyFish">
-                                            <p>#WilSonMKTG321</p>
-                                        </div>
-                                        <hr class="solid">
-                                    </div>
-        
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="stings" role="tabpanel" aria-labelledby="home-tab">
-                                <div class="card text-center md-1" style="width: 100%; border-radius: 10px;">
-
-                                    <div class="card-body ">
-                                        <h5 class="card-title text-color-JellyFish">Ecommerce VS Retail</h5>
-                                        <h6 class="card-subtitle mb-2 text-color-JellyFish">17 hours left</h6>
-        
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <div class="float-left">
-                                                    <img class="img-circle rounded-circle" style="height: 80px;"
-                                                         src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
-                                                    <text class="text-color-JellyFish">@TeeJ</text>
-                                                </div>
-                                                <div  class="float-right">
-                                                    <text class="text-color-JellyFish" >@MarcusF</text>
-                                                    <img class="img-circle rounded-circle" style="height: 80px;"
-                                                         src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="align-bottom font-bold text-color-JellyFish">
-                                            <p>#WilSonMKTG321</p>
-                                        </div>
-                                        <hr class="solid">
-                                    </div>
-        
-                                    <div class="card-body ">
-                                        <h5 class="card-title text-color-JellyFish">Banking Vs Reatil</h5>
-                                        <h6 class="card-subtitle mb-2 text-color-JellyFish">17 hours left</h6>
-        
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <div class="float-left">
-                                                    <img class="img-circle rounded-circle" style="height: 80px;"
-                                                         src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
-                                                    <text class="text-color-JellyFish">@TeeJ</text>
-                                                </div>
-                                                <div  class="float-right">
-                                                    <text class="text-color-JellyFish" >@MarcusF</text>
-                                                    <img class="img-circle rounded-circle" style="height: 80px;"
-                                                         src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="align-bottom font-bold text-color-JellyFish">
-                                            <p>#WilSonMKTG321</p>
-                                        </div>
-                                        <hr class="solid">
-                                    </div>
-        
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
+
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="active" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="card text-center md-1" style="width: 100%; border-radius: 10px;">
+
+                                <div class="card-body ">
+                                    <h5 class="card-title text-color-JellyFish">Ecommerce VS Retail</h5>
+                                    <h6 class="card-subtitle mb-2 text-color-JellyFish">17 hours left</h6>
+
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="float-left">
+                                                <img class="img-circle rounded-circle" style="height: 80px;" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
+                                                <text class="text-color-JellyFish">@TeeJ</text>
+                                            </div>
+                                            <div class="float-right">
+                                                <text class="text-color-JellyFish">@MarcusF</text>
+                                                <img class="img-circle rounded-circle" style="height: 80px;" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="align-bottom font-bold text-color-JellyFish">
+                                        <p>#WilSonMKTG321</p>
+                                    </div>
+                                    <hr class="solid">
+                                </div>
+
+                                <div class="card-body ">
+                                    <h5 class="card-title text-color-JellyFish">Ecommerce VS Retail</h5>
+                                    <h6 class="card-subtitle mb-2 text-color-JellyFish">17 hours left</h6>
+
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="float-left">
+                                                <img class="img-circle rounded-circle" style="height: 80px;" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
+                                                <text class="text-color-JellyFish">@TeeJ</text>
+                                            </div>
+                                            <div class="float-right">
+                                                <text class="text-color-JellyFish">@MarcusF</text>
+                                                <img class="img-circle rounded-circle" style="height: 80px;" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="align-bottom font-bold text-color-JellyFish">
+                                        <p>#WilSonMKTG321</p>
+                                    </div>
+                                    <hr class="solid">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="all" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="card text-center md-1" style="width: 100%; border-radius: 10px;">
+
+                                <div class="card-body ">
+                                    <h5 class="card-title text-color-JellyFish">Ecommerce VS Retail</h5>
+                                    <h6 class="card-subtitle mb-2 text-color-JellyFish">17 hours left</h6>
+
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="float-left">
+                                                <img class="img-circle rounded-circle" style="height: 80px;" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
+                                                <text class="text-color-JellyFish">@TeeJ</text>
+                                            </div>
+                                            <div class="float-right">
+                                                <text class="text-color-JellyFish">@MarcusF</text>
+                                                <img class="img-circle rounded-circle" style="height: 80px;" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="align-bottom font-bold text-color-JellyFish">
+                                        <p>#WilSonMKTG321</p>
+                                    </div>
+                                    <hr class="solid">
+                                </div>
+
+                                <div class="card-body ">
+                                    <h5 class="card-title text-color-JellyFish">Ecommerce VS Retail</h5>
+                                    <h6 class="card-subtitle mb-2 text-color-JellyFish">17 hours left</h6>
+
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="float-left">
+                                                <img class="img-circle rounded-circle" style="height: 80px;" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
+                                                <text class="text-color-JellyFish">@TeeJ</text>
+                                            </div>
+                                            <div class="float-right">
+                                                <text class="text-color-JellyFish">@MarcusF</text>
+                                                <img class="img-circle rounded-circle" style="height: 80px;" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="align-bottom font-bold text-color-JellyFish">
+                                        <p>#WilSonMKTG321</p>
+                                    </div>
+                                    <hr class="solid">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="stings" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="card text-center md-1" style="width: 100%; border-radius: 10px;">
+
+                                <div class="card-body ">
+                                    <h5 class="card-title text-color-JellyFish">Ecommerce VS Retail</h5>
+                                    <h6 class="card-subtitle mb-2 text-color-JellyFish">17 hours left</h6>
+
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="float-left">
+                                                <img class="img-circle rounded-circle" style="height: 80px;" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
+                                                <text class="text-color-JellyFish">@TeeJ</text>
+                                            </div>
+                                            <div class="float-right">
+                                                <text class="text-color-JellyFish">@MarcusF</text>
+                                                <img class="img-circle rounded-circle" style="height: 80px;" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="align-bottom font-bold text-color-JellyFish">
+                                        <p>#WilSonMKTG321</p>
+                                    </div>
+                                    <hr class="solid">
+                                </div>
+
+                                <div class="card-body ">
+                                    <h5 class="card-title text-color-JellyFish">Banking Vs Reatil</h5>
+                                    <h6 class="card-subtitle mb-2 text-color-JellyFish">17 hours left</h6>
+
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="float-left">
+                                                <img class="img-circle rounded-circle" style="height: 80px;" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
+                                                <text class="text-color-JellyFish">@TeeJ</text>
+                                            </div>
+                                            <div class="float-right">
+                                                <text class="text-color-JellyFish">@MarcusF</text>
+                                                <img class="img-circle rounded-circle" style="height: 80px;" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="align-bottom font-bold text-color-JellyFish">
+                                        <p>#WilSonMKTG321</p>
+                                    </div>
+                                    <hr class="solid">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
+    </div>
 
     </div>
 
-        <script src="javascript/jquery-3.3.1.min.js"></script>
-        <script src="javascript/popper.min.js"></script>
-        <script src="javascript/bootstrap.min.js"></script>
-        <script src="javascript/multislider.js"></script>
-    </body>
+    <script src="javascript/jquery-3.3.1.min.js"></script>
+    <script src="javascript/popper.min.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
+    <script src="javascript/multislider.js"></script>
+</body>
+
 </html>

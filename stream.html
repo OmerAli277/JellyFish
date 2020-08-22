@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
-    <head>
+
+<head>
     <title>Jelly Fish</title>
     <meta charset="UTF-8">
     <meta name="keywords" content="HTML, CSS, JavaScript">
@@ -15,108 +16,25 @@
     <link rel="stylesheet" href="css/stylesheet.css">
 
 </head>
-    <body class="body-background">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4" >
-                    <div class="col">
-                        <a href="#">
-                            <div class="card card-show md-3">
-                                <div class="card-body">
-                                     <div class="row">
-                                         <div class="col-sm-12 text-center">
-                                            <img class="rounded-circle" style="height: 50px;"
-                                                src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
-                                            <text class="text-color-JellyFish">@TeeJ</text>
-                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
 
-                        <div class="card text-center card-profile hiden-text md-6">
-                            <img class="card-img-top img-circle rounded-circle"
-                                 src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">@TeeJ</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Jelly Fish Score</h6>
-                                <svg height="120%" width="120%">
-                                    <circle cx="179" cy="68" r="60" stroke="#311d6f" stroke-width="13" fill="none" />
-                                    <text x="40%" y="45%" text-anchor="middle" stroke="#311d6f" stroke-width="2px" dy=".3em">363</text>
-                                </svg>
-
-                                 <div class="row justify-content-center" >
-                                     <text class="card-link card-text-style">3048 <br> Followers</text>
-                                     <text class="card-link card-text-style">3048 <br> Following</text>
-                                     <text class="card-link card-text-style">123 <br> Stings</text>
-                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="card text-center md-1 hiden-text" style="border-radius: 10px;">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <a href="#" class="btn btn-temp">
-                                            <img src="assests/WebSVGAssets/SearchTagIcon.svg">
-                                            HashTags
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <a href="#" class="btn btn-temp">
-                                            <img src="assests/WebSVGAssets/SearchTagIcon.svg">
-                                            Audience
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <a href="#" class="btn btn-temp">
-                                            <img src="assests/WebSVGAssets/SearchTagIcon.svg">
-                                            Stream
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                 <div class="offset-lg-3 col-lg-3">
-
-                    <div class="col">
-
-                        <div class="card text-center md-6" >
-                            <div class="card-body ">
-                                <h5 class="card-title font-bold text-color-JellyFish">STREAM</h5>
-                            </div>
-                        </div>
-
-                        <div class="md-3 parent">
-                            <img src="assests/WebSVGAssets/mediaPlayerStyle1.svg" class="img-fluid mx-auto d-block" >
-                            <img src="assests/WebSVGAssets/Record.svg"  class="over-img-debate img-fluid" data-toggle="modal" data-target="#exampleModalCenter" >
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
+<body class="body-stream">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
                     <form>
                         <div class="form-group md-3">
-                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Title">
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Title">
                         </div>
                         <div class="form-group">
-                          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="#Tag">
+                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="#Tag">
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control" id="exampleInputPassword2" placeholder="@String">
                         </div>
                         <div class="md-4">
-                            <p class="text-center text-color-JellyFish font-bold modal">Type</p>
+                            <p class="text-center text-color-JellyFish font-bold">Type</p>
                         </div>
                         <div class="text-center">
                             <button class="btn btn-temp modal-btn modal-btn-active">H2H</button>
@@ -127,48 +45,125 @@
                             <button class="btn btn-temp modal-btn modal-btn-active">Public</button>
                             <button class="btn btn-temp modal-btn">Private</button>
                         </div>
-                      </form>
-                      <div class="text-center md-5">
+                    </form>
+                    <div class="text-center md-5">
                         <button class="btn btn-temp modal-btn-main font-bold" onclick="closeCurrentModal()">GO</button>
                     </div>
                 </div>
             </div>
-            </div>
         </div>
-        <!-- Second Modal -->
-        <div class="modal fade" id="exampleModalCenterSecond" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+    </div>
+    <!-- Second Modal -->
+    <div class="modal fade" id="exampleModalCenterSecond" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
             <div class="modal-content">
                 <div class="modal-body">
                     <div class="text-center font-bold text-color-JellyFish">
-                        H2H Request <br>
-                        Sent Successfully 
+                        H2H Request <br> Sent Successfully
                     </div>
                     <div class="text-center md-2">
                         <button type="button" class="btn btn-temp" data-dismiss="modal">Back to Home</button>
                     </div>
                 </div>
             </div>
-            </div>
         </div>
     </div>
 
-        <script src="javascript/jquery-3.3.1.min.js"></script>
-        <script src="javascript/popper.min.js"></script>
-        <script src="javascript/bootstrap.min.js"></script>
-        <script src="javascript/multislider.js"></script>
-        <script>
-            $( document ).ready(() => {
-                $('#exampleModalCenter').on('hidden.bs.modal', function () {
-                    // Load up a new modal...
-                    $('#exampleModalCenterSecond').modal('show')
-                })
-            });
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="col">
+                    <a href="#">
+                        <div class="card card-show md-3">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-12 text-center">
+                                        <img class="rounded-circle" style="height: 50px;" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
+                                        <text class="text-color-JellyFish">@TeeJ</text>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
 
-            function closeCurrentModal(){
-                $('#exampleModalCenter').modal('hide')
-            }
-            
-        </script>
-    </body>
+                    <div class="card text-center card-profile hiden-text md-6">
+                        <a href="audienceTabs.html">
+                            <img class="card-img-top img-circle rounded-circle" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">@TeeJ</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Jelly Fish Score</h6>
+                            <svg height="120%" width="120%">
+                                    <circle cx="179" cy="68" r="60" stroke="#311d6f" stroke-width="13" fill="none" />
+                                    <text x="40%" y="45%" text-anchor="middle" stroke="#311d6f" stroke-width="2px" dy=".3em">363</text>
+                                </svg>
+
+                            <div class="row justify-content-center">
+                                <text class="card-link card-text-style">3048 <br> Followers</text>
+                                <text class="card-link card-text-style">3048 <br> Following</text>
+                                <text class="card-link card-text-style">123 <br> Stings</text>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card text-center md-1 hiden-text" style="border-radius: 10px;">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <a href="hashTag.html" class="btn btn-temp">
+                                        <img src="assests/WebSVGAssets/SearchTagIcon.svg"> HashTags
+                                    </a>
+                                </div>
+                                <div class="col-sm-4">
+                                    <a href="JellyFishHome.html" class="btn btn-temp">
+                                        <img src="assests/WebSVGAssets/SearchTagIcon.svg"> Audience
+                                    </a>
+                                </div>
+                                <div class="col-sm-4">
+                                    <a href="stream.html" class="btn btn-temp">
+                                        <img src="assests/WebSVGAssets/SearchTagIcon.svg"> Stream
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-lg-3 col-lg-3">
+                <div class="card text-center md-6 hiden-text">
+                    <div class="card-body ">
+                        <h5 class="card-title font-bold text-color-JellyFish">STREAM</h5>
+                    </div>
+                </div>
+                <div class="md-3 parent">
+                    <img src="assests/WebSVGAssets/mediaPlayerStyle1.svg" class="img-fluid hiden-text">
+                    <img src="assests/WebSVGAssets/Record.svg" class="over-img img-fluid" data-toggle="modal" data-target="#exampleModalCenter">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="javascript/jquery-3.3.1.min.js"></script>
+    <script src="javascript/popper.min.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
+    <script src="javascript/multislider.js"></script>
+    <script>
+        $(document).ready(() => {
+            $('#exampleModalCenter').on('hidden.bs.modal', function() {
+                // Load up a new modal...
+                $('#exampleModalCenterSecond').modal('show')
+            })
+        });
+
+        function closeCurrentModal() {
+            $('#exampleModalCenter').modal('hide')
+        }
+    </script>
+</body>
+
 </html>
