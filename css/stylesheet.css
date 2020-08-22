@@ -177,12 +177,38 @@ span {
     padding: 5px 50px;
 }
 
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 12px;
+    display: none;
+  }
+
+.fix-img{
+    position:fixed;
+    margin-left: -50px;
+    margin-top: 55px;
+}
+
+.full-screen {
+    height: 100vh;
+}
+
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 @media (max-width: 600px) {
     .form-pad{
-        padding: 0;
-        border-radius: 5%;
+        margin-top: -150px;
+        padding: 20px 15px;
+        border-radius: 30px;
+        background-color: white;
+        height: 40vh;
+        /* margin-left: -15px;
+        margin-right: -15px; */
+        -webkit-box-shadow: -2px -4px 16px -3px rgba(126,124,128,1);
+        -moz-box-shadow: -2px -4px 16px -3px rgba(126,124,128,1);
+        box-shadow: -2px -4px 16px -3px rgba(126,124,128,1);
     }
     .btn-temp {
         width: 100%;
@@ -227,8 +253,28 @@ span {
     .modal-btn-main {
         padding: 5px 10px;
     }
+    .topright{
+        display: block;
+        top: 60px;
+        font-size: 15px;
+    }
+    .fix-img{
+        margin-top: 0px;
+        position: relative;
+    }
+    .hiden-text{
+        display: none;
+    }
+    .md-15{
+        margin-top: 50px;
+    }
 }
-
+@media(max-width: 1600px){
+    .loginsignup-img{
+        width: 600px;
+        height: 600px;
+    }
+}
 
 .leftside, .rightside {
     height:50vh;
