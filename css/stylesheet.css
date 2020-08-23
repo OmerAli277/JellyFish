@@ -354,7 +354,9 @@ hr.solid {
     top: 50%;
 }
 
-
+.icon-show {
+    display: none;
+}
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 
 @media all and (max-width: 600px) {
@@ -448,6 +450,11 @@ hr.solid {
     .list-card-image {
         height: 50px !important;
     }
+
+    .debate-card-image {
+        height: 50px !important;
+    }
+
     .body-stream {
         background-image: url("../assests/MobileSVGAssets/marcosPauloPrado.svg");
         background-position: center;
