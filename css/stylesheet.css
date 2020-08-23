@@ -195,6 +195,14 @@ span {
     font-weight: 500;
 }
 
+.modal-btn2 {
+    border-radius: 30px;
+    padding: 5px 20px;
+    margin-right: 15px;
+    opacity: 0.7;
+    font-weight: 500;
+}
+
 .modal-btn-active {
     opacity: 1;
 }
@@ -338,15 +346,13 @@ hr.solid {
     overflow: hidden;
     padding: 35%;
     position: relative;*/
-
     width: 10vw;
     height: 10vw;
     border-radius: 50%;
     border: 15px solid #311d6f;
     position: relative;
-
-
 }
+
 
 /*.container-circle {
     width: 10vw;
@@ -366,9 +372,8 @@ hr.solid {
     text-align: center;
     transform: translate(-50%, -50%);
     top: 50%;
-
-    font-family : Montserrat;
-    font-size : 30px;
+    font-family: Montserrat;
+    font-size: 30px;
 }
 
 .icon-show {
@@ -425,6 +430,13 @@ hr.solid {
         margin-top: 30px;
     }
     .modal-btn {
+        border-radius: 15px;
+        padding: 4px 8px;
+        margin-right: 5px;
+        opacity: 0.7;
+        font-weight: 500;
+    }
+    .modal-btn2 {
         border-radius: 15px;
         padding: 4px 8px;
         margin-right: 5px;
@@ -494,28 +506,21 @@ hr.solid {
     .icon-show {
         display: block;
     }
-
-
-
     .circle {
-    /*border: 15px solid #311d6f;
+        /*border: 15px solid #311d6f;
     border-radius: 100%;
     color: #fff;
     display: block;
     overflow: hidden;
     padding: 35%;
     position: relative;*/
-
         width: 10vm;
         height: 10vm;
         border-radius: 50%;
         border: 15px solid #311d6f;
         position: relative;
-        padding : 45px;
-
-
+        padding: 45px;
     }
-
     .circle-content {
         align-items: center;
         display: flex;
@@ -528,8 +533,7 @@ hr.solid {
         text-align: center;
         transform: translate(-50%, -50%);
         top: 50%;
-
-        font-family : Montserrat;
-        font-size : 20px;
+        font-family: Montserrat;
+        font-size: 20px;
     }
 }

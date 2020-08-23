@@ -19,7 +19,7 @@
 
 <body class="body-stream">
     <!-- Modal -->
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal fade" id="exampleModalCenter" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -36,16 +36,16 @@
                         <div class="md-4">
                             <p class="text-center text-color-JellyFish font-bold">Type</p>
                         </div>
-                        <div class="text-center">
-                            <button class="btn btn-temp modal-btn modal-btn-active">H2H</button>
-                            <button class="btn btn-temp modal-btn">LIVE</button>
-                            <button class="btn btn-temp modal-btn">BOARD</button>
-                        </div>
-                        <div class="text-center md-1">
-                            <button class="btn btn-temp modal-btn modal-btn-active">Public</button>
-                            <button class="btn btn-temp modal-btn">Private</button>
-                        </div>
                     </form>
+                    <div class="text-center">
+                        <button class="btn btn-temp modal-btn modal-btn-active">H2H</button>
+                        <button class="btn btn-temp modal-btn">LIVE</button>
+                        <button class="btn btn-temp modal-btn">BOARD</button>
+                    </div>
+                    <div class="text-center md-1">
+                        <button class="btn btn-temp modal-btn2 modal-btn-active">Public</button>
+                        <button class="btn btn-temp modal-btn2">Private</button>
+                    </div>
                     <div class="text-center md-5">
                         <button class="btn btn-temp modal-btn-main font-bold" onclick="closeCurrentModal()">GO</button>
                     </div>
@@ -71,7 +71,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-xl-4">
                 <div class="col">
 
 
@@ -90,13 +90,13 @@
 
                     <div class="card text-center card-profile hiden-text md-6">
 
-                        <a href="audienceTabs.html" > <img class="card-img-top img-circle rounded-circle" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap"> </a>
+                        <a href="audienceTabs.html"> <img class="card-img-top img-circle rounded-circle" src="https://dummyimage.com/100x100/000/fff" alt="Card image cap"> </a>
                         <div class="card-body">
-                            <h5 class="card-title md-1" >@TeeJ</h5>
+                            <h5 class="card-title md-1">@TeeJ</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Jelly Fish Score</h6>
 
 
-                             <div class="circle container">
+                            <div class="circle container">
                                 <p class="circle-content text-color-JellyFish">
                                     316
                                 </p>
@@ -134,7 +134,7 @@
                 </div>
             </div>
 
-            <div class="offset-lg-3 col-lg-3">
+            <div class="offset-lg-3 offset-xl-4 col-lg-3 col-xl-2">
                 <div class="card text-center md-6 hiden-text">
                     <div class="card-body ">
                         <h5 class="card-title font-bold text-color-JellyFish">STREAM</h5>
@@ -162,6 +162,14 @@
                 // Load up a new modal...
                 $('#exampleModalCenterSecond').modal('show')
             })
+
+            $('.modal-btn').click(function() {
+                $(this).toggleClass('modal-btn-active').siblings().removeClass('modal-btn-active');
+            });
+
+            $('.modal-btn2').click(function() {
+                $(this).toggleClass('modal-btn-active').siblings().removeClass('modal-btn-active');
+            });
         });
 
         function closeCurrentModal() {
