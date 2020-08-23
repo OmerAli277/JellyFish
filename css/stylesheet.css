@@ -218,6 +218,10 @@ span {
     display: none;
 }
 
+.icon-show {
+    display: none;
+}
+
 .leftside,
 .rightside {
     height: 50vh;
@@ -462,5 +466,8 @@ hr.solid {
         top: 0;
         left: 0;
         transform: translate(-50%, -50%);
+    }
+    .icon-show {
+        display: block;
     }
 }
