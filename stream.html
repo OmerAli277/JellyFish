@@ -18,6 +18,13 @@
 </head>
 
 <body class="body-stream">
+    <!-- <div class="container-fluid mobile-video" style="height: 100vh;">
+        <div class="row">
+            <div class="col-sm-12">
+                
+            </div>
+        </div>
+    </div> -->
     <!-- Modal -->
     <div class="modal fade" id="exampleModalCenter" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -73,7 +80,6 @@
         <div class="row">
             <div class="col-lg-4 col-xl-4">
                 <div class="col">
-
 
                     <a href="audienceTabs.html">
                         <div class="card card-show md-3">
@@ -141,7 +147,9 @@
                     </div>
                 </div>
                 <div class="md-3 parent">
-                    <img src="assests/WebSVGAssets/mediaPlayerStyle1.svg" class="img-fluid hiden-text">
+                    <!-- <video id="video" class="over-img-video mobile-video" autoplay></video> -->
+                    <img src="assests/WebSVGAssets/mediaPlayerStyle2.svg" class="img-fluid hiden-text">
+                    <video id="video" width="250" class="over-img-video" autoplay></video>
                     <img src="assests/WebSVGAssets/Record.svg" class="over-img img-fluid" data-toggle="modal" data-target="#exampleModalCenter">
                 </div>
             </div>
@@ -170,6 +178,19 @@
             $('.modal-btn2').click(function() {
                 $(this).toggleClass('modal-btn-active').siblings().removeClass('modal-btn-active');
             });
+
+            var video = document.getElementById('video');
+
+            if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+
+                navigator.mediaDevices.getUserMedia({
+                    video: true
+                }).then(function(stream) {
+                    //video.src = window.URL.createObjectURL(stream);
+                    video.srcObject = stream;
+                    video.play();
+                });
+            }
         });
 
         function closeCurrentModal() {
