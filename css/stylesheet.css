@@ -3,6 +3,11 @@ body {
     font-weight: 300;
 }
 
+a:hover {
+    cursor: pointer;
+    color: white;
+}
+
 .body-background {
     background-image: url("../assests/WebSVGAssets/JellyBackground.svg");
 }
@@ -245,10 +250,11 @@ span {
 
 .card-text-style {
     background-color: #f5f7fe;
-    color: #615789;
+    color: #311d6f;
     border-radius: 10px;
-    padding: 5px 15px 5px 15px;
-    font-size: 12px;
+    padding: 13px 26px;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .card-img-top {
@@ -306,7 +312,7 @@ hr.solid {
 
 .hashtag-card-text-style {
     background-color: #f5f7fe;
-    color: #615789;
+    color: #652079;
     border-radius: 10px;
     padding: 5px 15px 5px 15px;
     font-size: 12px;
@@ -357,6 +363,8 @@ hr.solid {
 .icon-show {
     display: none;
 }
+
+
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 
 @media all and (max-width: 600px) {
@@ -450,11 +458,9 @@ hr.solid {
     .list-card-image {
         height: 50px !important;
     }
-
     .debate-card-image {
         height: 50px !important;
     }
-
     .body-stream {
         background-image: url("../assests/MobileSVGAssets/marcosPauloPrado.svg");
         background-position: center;
