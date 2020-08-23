@@ -44,3 +44,51 @@
     margin-top: 60px;
     padding-top: 30px;
 }
+
+
+/* //ENABLE CSS GRID FOR LIFT OFF  🚀 */
+
+@supports(display: grid) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto 1fr auto;
+        /* //Let the craziness begin!!! */
+        grid-template-areas: "header header header" "title title footer" "main main main";
+        @media screen and (max-width: 500px) {
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.3fr 1fr auto 1fr;
+            grid-template-areas: "header" "title" "main" "footer";
+        }
+    }
+    .grid-item {
+        padding: 3.5em 1em;
+    }
+    .main {
+        grid-area: main;
+        padding: 0;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .items {
+        position: relative;
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        transition: all 0.2s;
+        transform: scale(0.98);
+        will-change: transform;
+        user-select: none;
+        cursor: pointer;
+    }
+    .items.active {
+        cursor: grabbing;
+        cursor: -webkit-grabbing;
+        transform: scale(1);
+    }
+    .item {
+        display: inline-block;
+        margin: 2em 1em;
+    }
+}
