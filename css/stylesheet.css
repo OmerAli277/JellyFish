@@ -180,11 +180,29 @@ span {
     transform: translate(-50%, -50%);
 }
 
+.over-img-video {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    margin-top: 13%;
+    margin-left: 30%;
+    transform: translate(-50%, -50%);
+}
+
 .over-img-debate {
     position: absolute;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.icon {
+  color: white;
+  padding: 10px;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: -50px;
 }
 
 .modal-btn {
@@ -371,6 +389,10 @@ hr.solid {
     display: none;
 }
 
+.mobile-video {
+    display: none;
+}
+
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 
@@ -476,8 +498,7 @@ hr.solid {
         height: 50px !important;
     }
     .body-stream {
-        background-image: url("../assests/MobileSVGAssets/marcosPauloPrado.svg");
-        background-position: center;
+        background-image: none;
     }
     .mob {
         margin-top: 100px;
@@ -527,14 +548,24 @@ hr.solid {
         font-family: Montserrat;
         font-size: 20px;
     }
-}
 
-
-.icon {
-  color: white;
-  padding: 10px;
-  height: 20px;
-  position: absolute;
-  right: 10px;
-  top: -50px;
+    .card-text-style {
+        background-color: #f5f7fe;
+        color: #311d6f;
+        border-radius: 10px;
+        padding: 5px 15px 5px 15px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .mobile-video {
+        display: block;
+    }
+    .over-img {
+        position: absolute;
+        top: 80%;
+        left: 20%;
+        margin-top: 160%;
+        margin-left: 30%;
+        transform: translate(-50%, -50%);
+    }
 }
